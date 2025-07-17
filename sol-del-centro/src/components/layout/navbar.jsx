@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/navbar.module.css';
+import styles from '../../styles/navbar.module.css';
 // Cambia este import para evitar conflictos
 import { BrowserRouter as Router, Routes, Route, Link as RouterLink, useLocation } from 'react-router-dom';
 import { Menu, X, Home, User, Mail, Settings } from 'lucide-react';
